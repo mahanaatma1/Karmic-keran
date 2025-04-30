@@ -4,10 +4,10 @@ import { COLORS, SPACING, FONT } from '../../constants/Theme';
 import { useAuth } from '../../context/AuthContext';
 
 // Import profile section components
-import ProfilePhotoSection from '../../components/profile/ProfilePhotoSection';
-import PersonalInfoSection from '../../components/profile/PersonalInfoSection';
-import BirthDetailsSection from '../../components/profile/BirthDetailsSection';
-import SecuritySection from '../../components/profile/SecuritySection';
+import ProfilePhotoSection from '../../components/admin/profile/ProfilePhotoSection';
+import PersonalInfoSection from '../../components/admin/profile/PersonalInfoSection';
+import BirthDetailsSection from '../../components/admin/profile/BirthDetailsSection';
+import SecuritySection from '../../components/admin/profile/SecuritySection';
 
 export default function AdminProfileScreen() {
   const { user } = useAuth();

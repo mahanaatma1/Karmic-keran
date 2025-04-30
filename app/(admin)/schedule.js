@@ -3,10 +3,10 @@ import { View, ScrollView, StyleSheet, Text, Alert } from 'react-native';
 import { COLORS, SPACING, FONT } from '../../constants/Theme';
 
 // Import the modular components
-import WelcomeSection from '../../components/schedule/WelcomeSection';
-import ConsultationCard from '../../components/schedule/ConsultationCard';
-import OverviewMetrics from '../../components/schedule/OverviewMetrics';
-import DailySchedule from '../../components/schedule/DailySchedule';
+import WelcomeSection from '../../components/admin/schedule/WelcomeSection';
+import ConsultationCard from '../../components/admin/schedule/ConsultationCard';
+import OverviewMetrics from '../../components/admin/schedule/OverviewMetrics';
+import DailySchedule from '../../components/admin/schedule/DailySchedule';
 
 export default function ScheduleScreen() {
   // Sample data for the next consultation

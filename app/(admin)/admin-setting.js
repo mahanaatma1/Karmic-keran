@@ -4,14 +4,14 @@ import { COLORS, SPACING, FONT } from '../../constants/Theme';
 import { useAuth } from '../../context/AuthContext';
 
 // Import modular components
-import AdminTabBar from '../../components/admin/AdminTabBar';
-import BufferTimeSettings from '../../components/admin/BufferTimeSettings';
-import TimezoneSettings from '../../components/admin/TimezoneSettings';
-import AvailabilitySettings from '../../components/admin/AvailabilitySettings';
-import ServicesAndPricing from '../../components/admin/ServicesAndPricing';
-import ServiceFormModal from '../../components/admin/ServiceFormModal';
-import DayOffSettings from '../../components/admin/DayOffSettings';
-import DateRangeFormModal from '../../components/admin/DateRangeFormModal';
+import AdminTabBar from '../../components/admin/admin-setting/AdminTabBar';
+import BufferTimeSettings from '../../components/admin/admin-setting/BufferTimeSettings';
+import TimezoneSettings from '../../components/admin/admin-setting/TimezoneSettings';
+import AvailabilitySettings from '../../components/admin/admin-setting/AvailabilitySettings';
+import ServicesAndPricing from '../../components/admin/admin-setting/ServicesAndPricing';
+import ServiceFormModal from '../../components/admin/admin-setting/ServiceFormModal';
+import DayOffSettings from '../../components/admin/admin-setting/DayOffSettings';
+import DateRangeFormModal from '../../components/admin/admin-setting/DateRangeFormModal';
 
 export default function AdminSettingsScreen() {
   const { user } = useAuth();

@@ -25,11 +25,11 @@ export default function UserLayout() {
     setActiveTab(index);
     // Navigate to the corresponding screen
     const routes = [
-      'book-consultation',
-      'my-consultations',
-      'self-discovery',
-      'learn',
-      'ask-question'
+      '(book-consultations)/book-consultation',
+      '(my-consultation)/my-consultations',
+      '(self-discovery)/self-discovery',
+      '(learn)/learn',
+      '(Ask-questions)/ask-question'
     ];
     router.push(`/(user)/${routes[index]}`);
   };

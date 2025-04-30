@@ -3,10 +3,10 @@ import { View, Text, StyleSheet, ScrollView } from 'react-native';
 import { COLORS, SPACING, FONT } from '../../constants/Theme';
 
 // Import dashboard components
-import OverviewMetricsCard from '../../components/admin/OverviewMetricsCard';
-import ActivityOverview from '../../components/admin/ActivityOverview';
-import ServiceDistribution from '../../components/admin/ServiceDistribution';
-import PopularServiceCard from '../../components/admin/PopularServiceCard';
+import OverviewMetricsCard from '../../components/admin/dashboard/OverviewMetricsCard';
+import ActivityOverview from '../../components/admin/dashboard/ActivityOverview';
+import ServiceDistribution from '../../components/admin/dashboard/ServiceDistribution';
+import PopularServiceCard from '../../components/admin/dashboard/PopularServiceCard';
 
 export default function DashboardScreen() {
   return (

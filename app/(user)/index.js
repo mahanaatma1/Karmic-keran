@@ -1,6 +1,6 @@
 import { Redirect } from 'expo-router';
  
 export default function UserIndex() {
-  // Default redirect to Ask Question tab for user
-  return <Redirect href="/(user)/book-consultation" />;
+  // Default redirect to book-consultations tab for user
+  return <Redirect href="/(user)/(book-consultations)/book-consultation" />;
 } 

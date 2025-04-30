@@ -3,10 +3,10 @@ import { View, StyleSheet, ScrollView, Alert } from 'react-native';
 import { COLORS, SPACING } from '../../constants/Theme';
 
 // Import custom components
-import BlogHeaderBanner from '../../components/admin/BlogHeaderBanner';
-import BlogPostCard from '../../components/admin/BlogPostCard';
-import BlogEditorModal from '../../components/admin/BlogEditorModal';
-import PublishedArticlesHeader from '../../components/admin/PublishedArticlesHeader';
+import BlogHeaderBanner from '../../components/admin/post-blog/BlogHeaderBanner';
+import BlogPostCard from '../../components/admin/post-blog/BlogPostCard';
+import BlogEditorModal from '../../components/admin/post-blog/BlogEditorModal';
+import PublishedArticlesHeader from '../../components/admin/post-blog/PublishedArticlesHeader';
 
 export default function PostBlogScreen() {
   const [editorVisible, setEditorVisible] = useState(false);

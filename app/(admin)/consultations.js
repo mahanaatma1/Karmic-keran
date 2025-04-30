@@ -3,10 +3,10 @@ import { View, StyleSheet, ScrollView, Alert } from 'react-native';
 import { COLORS, SPACING } from '../../constants/Theme';
 
 // Import custom components
-import ConsultationHeader from '../../components/consultations/ConsultationHeader';
-import TabSelector from '../../components/consultations/TabSelector';
-import SearchBar from '../../components/consultations/SearchBar';
-import ConsultationTable from '../../components/consultations/ConsultationTable';
+import ConsultationHeader from '../../components/admin/consultations/ConsultationHeader';
+import TabSelector from '../../components/admin/consultations/TabSelector';
+import SearchBar from '../../components/admin/consultations/SearchBar';
+import ConsultationTable from '../../components/admin/consultations/ConsultationTable';
 
 const ConsultationsScreen = () => {
   const [activeTab, setActiveTab] = useState('all');

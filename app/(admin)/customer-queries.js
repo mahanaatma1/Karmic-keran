@@ -3,10 +3,10 @@ import { View, Text, StyleSheet, ScrollView } from 'react-native';
 import { COLORS, SPACING, FONT } from '../../constants/Theme';
 
 // Import custom components
-import CustomerQueryCard from '../../components/admin/CustomerQueryCard';
-import CustomerQueryTable from '../../components/admin/CustomerQueryTable';
-import QuerySearchFilter from '../../components/admin/QuerySearchFilter';
-import Pagination from '../../components/admin/Pagination';
+import CustomerQueryCard from '../../components/admin/customer-queries/CustomerQueryCard';
+import CustomerQueryTable from '../../components/admin/customer-queries/CustomerQueryTable';
+import QuerySearchFilter from '../../components/admin/customer-queries/QuerySearchFilter';
+import Pagination from '../../components/admin/customer-queries/Pagination';
 
 export default function CustomerQueriesScreen() {
   const [viewType, setViewType] = useState('card'); // 'card' or 'table'
